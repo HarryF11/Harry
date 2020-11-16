@@ -1,0 +1,45 @@
+Sequence:
+
+AmazonWishList = list(("PS5", "LED Strip", "iPhone 12"))
+print(AmazonWishList)
+
+Selection:
+
+age = int(input("What is your age?"))
+if age >= 20:
+    print("You are at a young age")
+ElseIf age >= 50:
+    print("Woah! You're half a decade old!")
+Else
+    print("Your age is irrelevant")
+
+Iteration:
+
+adj = ["Giant", "Colourful", "Simplistic"]
+WishList = ["PS5", "LED Strips", "iPhone 12"]
+
+for x in adj:
+ for y in WishList:
+   print(x, y)
+
+Local and Global variables:
+
+E = "Example"
+
+def myfunc():
+  global E
+  E = "End"
+  
+myfunc():
+
+print("Here is an" + E)
+
+Libraries:
+
+
+
+Procedures and Functions:
+
+
+
+Parameter Passing:
