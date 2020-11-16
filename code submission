@@ -3,6 +3,7 @@ Sequence:
 AmazonWishList = list(("PS5", "LED Strip", "iPhone 12"))
 print(AmazonWishList)
 
+
 Selection:
 
 age = int(input("What is your age?"))
@@ -12,6 +13,7 @@ ElseIf age >= 50:
     print("Woah! You're half a decade old!")
 Else
     print("Your age is irrelevant")
+
 
 Iteration:
 
@@ -24,6 +26,7 @@ for x in adj:
 
 Local and Global variables:
 
+
 E = "Example"
 
 def myfunc():
@@ -34,12 +37,37 @@ myfunc():
 
 print("Here is an" + E)
 
+
 Libraries:
 
+{SAVE THIS CODE AS} "CodeExample.py"
+
+Person1 = {
+  "name": "Harry"
+  "age": "18"
+  "country": "England"
+}
+
+
+import CodeExample.py
+
+a = CodeExample.person1[age]
+print(a)
 
 
 Procedures and Functions:
 
+def my_function():
+  print("Function Text")
+  
+my_function()
 
 
 Parameter Passing:
+
+def my_function(fname):
+  print("fname + "Refsnes")
+
+my_function("Harry")
+my_function("Jack")
+my_function("Shaun")
